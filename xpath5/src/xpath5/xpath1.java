@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.mysql.jdbc.PreparedStatement;
-
+//comment
 public class xpath1 {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
 	
