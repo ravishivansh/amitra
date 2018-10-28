@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.mysql.jdbc.PreparedStatement;
-//comment
+//comment3
 public class xpath1 {
 public static void main(String[] args) throws ClassNotFoundException, SQLException {
 	
@@ -23,10 +23,20 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
     System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
     //System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");					
    // WebDriver driver = new ChromeDriver();	
-    WebDriver driver = new FirefoxDriver();	
-    driver.manage().window().maximize();
-    driver.get(baseUrl);
-    connection1( driver);
+   // WebDriver driver = new FirefoxDriver();	
+   // driver.manage().window().maximize();
+   // driver.get(baseUrl);
+   // connection1( driver);
+    
+    String Str="shashi's brother";
+    
+    String str1=null;
+    
+    if (Str.contains("'"))
+    {
+    	System.out.println(1);
+    	//Str.
+    }
   //  connection1(WebDriver driver);
     //List<WebElement> lis = driver.findElements(By.xpath("//.//*[@id='java_technologies']//li[1]"));
  //   .//*[@id='java_technologies']/li[18]	
